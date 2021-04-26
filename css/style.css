@@ -61,7 +61,7 @@ h1, h2 {
 #menus{
   overflow-y: hidden;
   overflow-x: hidden;
-background-image: url('/images/wood.jpg');
+background-image: url('../images/wood.jpg');
   /* background-color: darkslategray; */
 
   margin-top: 5px;
@@ -166,7 +166,7 @@ background-image: url('/images/wood.jpg');
 }
 .order {
   background-attachment: fixed;
-  background-image: url("/images/dark.jpeg");
+  background-image: url("../images/dark.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
