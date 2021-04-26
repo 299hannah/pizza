@@ -97,33 +97,27 @@
                             <label for="crust">Choose your favorite Crust!</label><br>
                             <select class="browser-default custom-select custom-select-md mb-3" id="crust">
                                 <option selected value="0">Select your preferred crust!</option>
-                                <option value="Crispy">Crispy -- sh. 200</option>
-                                <option value="Stuffed">Stuffed -- sh. 150</option>
-                                <option value="Gluten-free">Gluten-free-- sh. 180</option>
+                                <option value="Crispy">Crispy @ sh. 200</option>
+                                <option value="Stuffed">Stuffed @ sh. 150</option>
+                                <option value="Gluten-free">Gluten-free @ sh. 180</option>
+                                <option value="flatbread">FlatBread Crust @ sh. 180</option>
+                                <option value="custom">Custom Crust @ sh. 280</option>
                             </select>
-                            <label for="Toppings">Select Your Toppings at sh. 150 each</label><br>
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon"
-                                    name="toppings">
-                                <label class="custom-control-label" for="Bacon">Bacon</label>
-                            </div>
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage"
-                                    name="toppings">
-                                <label class="custom-control-label" for="Sausage">Sausage</label>
-                            </div>
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon"
-                                    name="toppings">
-                                <label class="custom-control-label" for="Bacon">Bacon</label>
-                            </div>
+                            <label for="Toppings">Choose your Desired toppings @ sh. 150 each</label> <br>
+                            <input value="Mushrooms" name="toppings" type="checkbox" id="toppingone">Mushrooms
+                            <input value="Sausage" name="toppings" type="checkbox" id="toppingone">Sausage
+                            <input value="Tikka Sauce" name="toppings" type="checkbox" id="toppingone">Tikka Sauce
+                            <input value="Mozarella Cheese" name="toppings" type="checkbox" id="toppingone">Mozarella Cheese
+                            <input value="Ahem" name="toppings" type="checkbox" id="toppingone">Ahem
+                             
+                          
                             <div class="custom-control custom-checkbox custom-control-inline">
                                 <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms"
                                     name="toppings">
                                 <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
                             </div>
                             <br><br>
-                            <button type="submit" class="btn btn-orange proceed">Proceed</button>
+                            <button type="submit" class="btn bg-warning proceed">Proceed</button>
 
                         </form>
                     </div>
@@ -134,10 +128,10 @@
                         <div id="information">
                             <p>Your order will be processed and delivered within one hour of placing.</p>
                             <p>Make sure you have the total amout for the order during order delivery delivery.</p>
-                            <p>Incase of any comment of complaint, Please reach out to us as fast as possible.</p>
-                            <p id="regards">Regards, Management</p>
+                            <p>Feel free to reach out to us.</p>
+                            
                         </div>
-                        <div class="choise">
+                        <div class="choice">
                             <h2>Your Order is:</h2>
                             <div id="your-orders">
                                 <table class="table table-sm  pizzatable">
@@ -165,9 +159,9 @@
                                 <p id="addedprice">Delivery will cost sh. 150</p>
                                 <p id="finallmessage"></p>
                             </div>
-                            <button class="btn btn-orange addPizza">Add Pizza</button>
-                            <button class="btn btn-orange" id="checkout">Checkout</button>
-                            <button class="btn btn-orange deliver">Home delivery?</button>
+                            <button class="btn bg-warning addPizza">Add Pizza</button>
+                            <button class="btn bg-warning" id="checkout">Checkout</button>
+                            <button class="btn bg-warning deliver">On your door step?</button>
                         </div>
                         <div class="delivery">
                             <form action="">
@@ -177,7 +171,7 @@
                                         placeholder="Pnone Number">
                                     <input type="text" id="location" class="form-control mb-3"
                                         placeholder="Location for delivery">
-                                    <button class="btn btn-orange" id="final-order">Place Order</button>
+                                    <button class="btn bg-primary" id="final-order">Place Order</button>
                                 </div>
                             </form>
                         </div>
@@ -189,7 +183,8 @@
     </div>
     <div class="row">
         <div class="container text-center footer">
-            <p>&copy; 2021 | All-star-pizza-Bar</p>
+            <p>Email us  @ hannahwambui022@gmail.com</p>
+            <p>&copy; 2021 | Pizza-Taste</p>
         </div>
     </div>
     </div>
