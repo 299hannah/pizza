@@ -9,7 +9,7 @@ You can install it with the following command in your terminal
 `$ sudo apt install git-all`
 
 ## Screenshot
-!url[](images/Screenshot.png)
+![](images/Screenshot.png)
 
 ### Setup
 To access this project on your local files, you can clone it using these steps
