@@ -7,6 +7,7 @@ This project is about My pizza Website.
 You need to have git installed
 You can install it with the following command in your terminal
 `$ sudo apt install git-all`
+
 ## Screenshot
 url['../images/screenshot.png']
 
