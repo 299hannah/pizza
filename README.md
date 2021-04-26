@@ -8,8 +8,7 @@ You need to have git installed
 You can install it with the following command in your terminal
 `$ sudo apt install git-all`
 
-## Screenshot
-url['../images/screenshot.png']
+
 
 ### Setup
 To access this project on your local files, you can clone it using these steps
@@ -24,6 +23,6 @@ This will clone the repositoty into your local folder.
  1. jQuery.
  1. Git.
 ### Live Site.
-View [live](https://299hannah.github.io/-Delani-Studio/).
+View [live]( https://299hannah.github.io/pizza/).
 Licence
 This project is under the [MIT licence](licence).
