@@ -26,15 +26,15 @@ $(document).ready(function(){
       price =0;
     break;
     case "large":
-       price = 1200;
+       price = 1500;
        console.log(price);
      break;
      case "medium":
-       price = 850;
+       price = 1000;
        console.log("The price is "+price);
      break;
      case "small":
-       price = 600;
+       price = 500;
        console.log(price);
      default:
        console.log("error"); 
@@ -47,11 +47,18 @@ $(document).ready(function(){
         crust_price = 200;
       break;
       case "Stuffed":
-        crust_price = 250;
+        crust_price = 150;
       break;
       case "Gluten-free":
         crust_price = 180;
       break;
+      case "FlatBread Crust ":
+        crust_price = 180;
+      break;
+      case "FlatBread Crust ":
+        crust_price = 280;
+      break;
+
       default:
         console.log("No price"); 
     }
@@ -62,13 +69,13 @@ $(document).ready(function(){
       console.log("nothing selected");
       $("button.proceed").show();
       $("#information").show();
-      $("div.choise").hide();
-      alert("Please select pizza size and crust"); 
+      $("div.choice").hide();
+      alert("Select pizza size and crust"); 
     }
     else{
       $("button.proceed").hide();
       $("#information").hide();
-      $("div.choise").slideDown(1000);
+      $("div.choice").slideDown(1000);
     }
 
     total = price + crust_price + topping_value;
@@ -97,36 +104,43 @@ $(document).ready(function(){
           price =0;
         break;
         case "large":
-           price = 1200;
+           price = 1500;
            console.log(price);
          break;
          case "medium":
-           price = 850;
+           price = 1000;
            console.log("The price is "+price);
          break;
          case "small":
-           price = 600;
+           price = 500;
            console.log(price);
          default:
            console.log("error"); 
        }
        switch(pcrust){
-          case "0":
-            crust_price = 0;
-          break;
-          case "Crispy":
-            crust_price = 200;
-          break;
-          case "Stuffed":
-            crust_price = 150;
-          break;
-          case "Gluten-free":
-            crust_price = 180;
-          break;
-          default:
-            console.log("No price"); 
-        }
-        let topping_value = ptopping.length*50;
+        case "0":
+          crust_price = 0;
+        break;
+        case "Crispy":
+          crust_price = 200;
+        break;
+        case "Stuffed":
+          crust_price = 150;
+        break;
+        case "Gluten-free":
+          crust_price = 180;
+        break;
+        case "FlatBread Crust ":
+          crust_price = 180;
+        break;
+        case "FlatBread Crust ":
+          crust_price = 280;
+        break;
+  
+        default:
+          console.log("No price"); 
+      }
+        let topping_value = ptopping.length*150;
         console.log("toppins value" + topping_value);
         total = price + crust_price + topping_value;
         console.log(total);
@@ -155,7 +169,7 @@ $(document).ready(function(){
     // home delivery button
     $("button.deliver").click(function(){
       $(".pizzatable").hide();
-      $(".choise h2").hide();
+      $(".choice h2").hide();
       $(".delivery").slideDown(1000);
       $("#addedprice").hide();
       $("button.deliver").hide();
