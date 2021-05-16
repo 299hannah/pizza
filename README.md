@@ -1,4 +1,4 @@
-# Delani Studio
+# Pizza
 ### Author: Mwangi Hannah Wambui
 ## Description
 This project is about My pizza Website.
